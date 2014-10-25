@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_EkxAEFryEeSKlZE6etc-AQ">
+  <imports xsi:type="commands:Command" xmi:id="_EkxAEVryEeSKlZE6etc-AQ" elementId="org.eclipse.ui.window.preferences" commandName="Preferences"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EkxAElryEeSKlZE6etc-AQ" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_EkxAE1ryEeSKlZE6etc-AQ" elementId="cane.brothers.e4.test.preferences.handler.preferenceCommand" contributionURI="bundleclass://com.opcoach.e4.preferences/com.opcoach.e4.preferences.handlers.E4PreferencesHandler" command="_EkxAEVryEeSKlZE6etc-AQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_VwAkEFryEeSKlZE6etc-AQ" featurename="children" parentElementId="cane.brothers.e4.test.preferences.view.toolbar">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_eGZVUFr0EeSKlZE6etc-AQ" elementId="cane.brothers.e4.test.preferences.conf.handledtoolitem.preferences" label="preferences" iconURI="" command="_yU9PUFxzEeSKlZE6etc-AQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_kUxSEFxzEeSKlZE6etc-AQ" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_yU9PUFxzEeSKlZE6etc-AQ" elementId="org.eclipse.ui.window.preferences" commandName="Preferences"/>
+  </fragments>
+</fragment:ModelFragments>

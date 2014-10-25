@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         name="E4PTest"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            description="E4 Preferences Test Application"
+            name="E4PTest">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/cane.brothers.e4.test.preferences.view/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="E4PTest">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="platform:/plugin/cane.brothers.e4.test.preferences.conf/preferences/plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
