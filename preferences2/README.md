@@ -9,3 +9,5 @@ In other case You handler and menu/toolbar item will not work and You will see i
 ```
 !MESSAGE Could not resolve import for null
 ```
+![model fragment command](https://cloud.githubusercontent.com/assets/1450943/4781973/f1374eee-5ccf-11e4-94fb-80d47a8a8a4f.png)
+
