@@ -1,5 +1,4 @@
-II e4 preferences example
-====
+## II e4 preferences example
 
 * In example preferences defined in one plug-in but used in other one.
 * Preferences command, handler and view toolbar item exported into model fragment.
@@ -17,4 +16,10 @@ In other case You handler and menu/toolbar item will not work and You will see i
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2014-10-26 09:23:22.264
 !MESSAGE Could not resolve import for null
 ```
+ 
+### how to run
+
+ to run this example, import first into workspase [e4Preferences](https://github.com/e4c/e4Preferences/tree/master/com.opcoach.e4.preferences) plug-in.
+ 
+ then open product, make sync and run.
 
